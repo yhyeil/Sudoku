@@ -163,7 +163,7 @@ public class Sudoku extends JFrame{
 		addToMenu(solve, "Solve", new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				File workingDirectory=new File(System.getProperty("user.dir"));
-				File f=new File(workingDirectory+"\\Answer\\"+name+"_solve");
+				File f=new File(workingDirectory+"\\Sudoku-main\\BoardGame\\Answer\\"+name+"_solve");
 				Scanner scanner;
 				try {
 					scanner = new Scanner(new File(f.getAbsolutePath()));
